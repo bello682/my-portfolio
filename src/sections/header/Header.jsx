@@ -18,10 +18,10 @@ const Header = () => {
 					performant website today!{" "}
 				</p>
 				<div className="header_call_to_action">
-					<a href="#Contact" className="btn primary">
+					<a href="#contact-id-routing" className="btn primary">
 						Let's Talk
 					</a>
-					<a href="#portfolio" className="btn light">
+					<a href="#portfolio-id-routing" className="btn light">
 						My Work
 					</a>
 				</div>
