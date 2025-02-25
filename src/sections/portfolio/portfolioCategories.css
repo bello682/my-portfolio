@@ -1,0 +1,25 @@
+.portfolio__categories {
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.btn.cat__btn {
+	text-transform: capitalize;
+	transition: var(--transition);
+}
+
+.btn.cat__btn:hover {
+	transform: translateY(0);
+}
+
+@media screen and (max-width: 600px) {
+	.portfolio__categories {
+		gap: 0.6rem;
+	}
+
+	.btn.cat__btn {
+		padding: 0.7rem 0.8rem;
+	}
+}
