@@ -31,9 +31,9 @@ const ServicesDataLink = [
 	{
 		id: 4,
 		icon: <AiFillAppstore />,
-		title: "App Developement",
+		title: "Mobile App Developer (React Native (expo, cli))",
 		description:
-			"Unlike other developers in the market, i will build an app that runs on both Ios and Android devices without any extra cost to you.",
+			"Unlike other developers in the market, i will build any mobile app that runs on both Ios and Android devices without any extra cost to you.",
 	},
 ];
 

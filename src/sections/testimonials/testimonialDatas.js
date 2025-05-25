@@ -13,91 +13,82 @@ const TestimonialsDataLink = [
 	{
 		id: 1,
 		Avatar: Avatar1,
-		name: "Project Title One (WORDPRESS)",
+		name: "Sarah Johnson (WordPress Blog Site)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Working with you was a breeze! You delivered a beautiful, responsive blog site on WordPress that exceeded my expectations. I especially appreciated your attention to SEO and user experience.",
+		profession: "https://www.linkedin.com/in/sarah-johnson",
 	},
-
 	{
 		id: 2,
 		Avatar: Avatar2,
-		name: "Project Title Two (WORDPRESS)",
+		name: "David Thompson (WordPress Business Site)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Incredible experience! You built a sleek, fast-loading WordPress website for my consulting firm and guided me on content placement. My clients love the new look!",
+		profession: "https://www.linkedin.com/in/david-thompson",
 	},
-
 	{
 		id: 3,
 		Avatar: Avatar3,
-		name: "Project Title Three (BACKEND)",
+		name: "Priya Mehta (Backend API Development)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"You handled the backend for our mobile app flawlessly. The API design was clean, scalable, and well-documented. Your problem-solving skills are top-notch!",
+		profession: "https://www.linkedin.com/in/priyamehta",
 	},
-
 	{
 		id: 4,
 		Avatar: Avatar4,
-		name: "Project Title Four (WORDPRESS)",
+		name: "Mark Evans (E-commerce WordPress Store)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Thanks for building my WooCommerce site from scratch. It’s fast, intuitive, and handles orders smoothly. You've helped my online sales grow significantly!",
+		profession: "https://www.linkedin.com/in/markevans",
 	},
-
 	{
 		id: 5,
 		Avatar: Avatar5,
-		name: "Project Title Five (BACKEND)",
+		name: "Fatima Al-Hassan (Backend User Auth System)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Your backend work was exactly what we needed — secure user authentication, JWT token handling, and efficient database integration. Highly recommend your backend expertise.",
+		profession: "https://www.linkedin.com/in/fatimaalhassan",
 	},
-
 	{
 		id: 6,
 		Avatar: Avatar6,
-		name: "Project Title Six (FRONTEND)",
+		name: "Lucas Bennett (React Frontend Dashboard)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"You created a fantastic admin dashboard in React that is both functional and beautiful. The UX is clean, and data handling works perfectly. Thanks for your hard work!",
+		profession: "https://www.linkedin.com/in/lucas-bennett",
 	},
-
 	{
 		id: 7,
 		Avatar: Avatar7,
-		name: "Project Title Seven (BACKEND)",
+		name: "Isabella Nguyen (Backend Booking System)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"The custom backend booking system you built was a game changer. It’s reliable, secure, and handles thousands of bookings seamlessly. Your work made our platform robust.",
+		profession: "https://www.linkedin.com/in/isabellanguyen",
 	},
-
 	{
 		id: 8,
 		Avatar: Avatar8,
-		name: "Project Title Eight (FRONTEND)",
+		name: "Nathan O’Connor (Frontend Landing Page)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Stunning work on the React landing page. It’s modern, mobile-friendly, and loads lightning-fast. You nailed the branding and layout perfectly!",
+		profession: "https://www.linkedin.com/in/nathanoconnor",
 	},
-
 	{
 		id: 9,
 		Avatar: Avatar9,
-		name: "Project Title Nine (BACKEND)",
+		name: "Chinwe Okeke (Backend Microservices Project)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"I’m truly impressed by your backend architecture for our microservices. Your code was clean and modular, making maintenance a breeze. Outstanding collaboration!",
+		profession: "https://www.linkedin.com/in/chinweokeke",
 	},
-
 	{
 		id: 10,
 		Avatar: Avatar10,
-		name: "Project Title Ten (FRONTEND)",
+		name: "James Kim (Frontend E-Learning Platform)",
 		quote:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		profession: "https://google.com",
+			"Your React frontend for our e-learning platform was spot-on. Intuitive layout, smooth navigation, and pixel-perfect design. Our users love it!",
+		profession: "https://www.linkedin.com/in/jameskim",
 	},
 ];
 

@@ -14,14 +14,14 @@ const AboutDataLink = [
 		id: 2,
 		icon: <FaThumbsUp />,
 		title: "Projects",
-		description: "180 Completed",
+		description: "50 Completed",
 	},
 
 	{
 		id: 3,
 		icon: <BiHappyHeartEyes />,
 		title: "Clients",
-		description: "70+ happy clients",
+		description: "35+ happy clients",
 	},
 ];
 

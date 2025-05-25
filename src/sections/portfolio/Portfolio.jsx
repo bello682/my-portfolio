@@ -12,7 +12,7 @@ const Portfolio = () => {
 		return item.category;
 	});
 
-	// To set or target a unique ITEM we us the "set".
+	// To set or target a unique ITEM we usE the "set".
 	// const UniqueCategories = new Set(categoriesAll);
 	const UniqueCategories = ["all", ...new Set(categoriesAll)];
 
@@ -37,10 +37,10 @@ const Portfolio = () => {
 			</p>
 
 			<div className="container portfolio__container">
-				<ProjectsCategories
+				{/* <ProjectsCategories
 					CategoriesProps={UniqueCategories}
 					onFilterProject={filterProjectHandler}
-				/>
+				/> */}
 				<Projects projectProps={projectsU} />
 			</div>
 		</section>
