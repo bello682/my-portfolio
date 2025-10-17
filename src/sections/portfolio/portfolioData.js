@@ -9,133 +9,241 @@ import Image8 from "../../images/SCREENSHOT/movie cart.png";
 import Image9 from "../../images/SCREENSHOT/engine.png";
 import Image10 from "../../images/SCREENSHOT/imagecard.png";
 import Image11 from "../../images/The-Barber-Shop.jpg";
+import Image12 from "../../images/SCREENSHOT/innovation sch.jpg";
+import Image13 from "../../images/SCREENSHOT/hairBookin.jpg";
+import Image14 from "../../images/SCREENSHOT/real estate 1.jpg";
+import Image15 from "../../images/SCREENSHOT/real estate 2.jpg";
+import Image16 from "../../images/SCREENSHOT/care hospital.jpg";
+import Image17 from "../../images/SCREENSHOT/friday temp1.jpg";
+import Image18 from "../../images/SCREENSHOT/logistics 1.jpg";
+import Image19 from "../../images/SCREENSHOT/flight 1.jpg";
+import Image20 from "../../images/SCREENSHOT/resume Ai builder.jpg";
 
 const PortfolioDataLink = [
 	{
 		id: 1,
 		category: "frontend",
-		image: Image11,
+		image: Image12,
 		// title: "Project Title One (FRONTEND)1",
-		title: "The Barber Shop",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		title: "Innovation Coding Academy",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://frontend-heavy-task.vercel.app/",
 		github: "https://github.com",
 	},
 	{
-		id: 1,
+		id: 2,
+		category: "frontend",
+		image: Image13,
+		// title: "Project Title One (FRONTEND)1",
+		title: "The Barber Shop",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://hair-style-booking-app-frontend.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 3,
+		category: "frontend",
+		image: Image14,
+		// title: "Project Title One (FRONTEND)1",
+		title: "Real Estate Project",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://real-estate-project-frontend-gilt.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 4,
+		category: "frontend",
+		image: Image15,
+		// title: "Project Title One (FRONTEND)1",
+		title: "The Real Estate Project",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://real-estate-project-frontend-gilt.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 5,
+		category: "frontend",
+		image: Image16,
+		// title: "Project Title One (FRONTEND)1",
+		title: "The Clinic Care Data Chart",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://coalition-technologies-frontend-task-w78s.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 6,
+		category: "frontend",
+		image: Image17,
+		// title: "Project Title One (FRONTEND)1",
+		title: "Belsoft Friday Temp",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://belsoft-system-onboarding-frontend-task.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 7,
+		category: "frontend",
+		image: Image18,
+		// title: "Project Title One (FRONTEND)1",
+		title: "Logistics Testing",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://logistics-testing-frontend.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 8,
+		category: "frontend",
+		image: Image19,
+		// title: "Project Title One (FRONTEND)1",
+		title: "Google Flight Demo App",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://google-flight-demo-app-w8z6.vercel.app/",
+		github: "https://github.com",
+	},
+	{
+		id: 9,
+		category: "frontend",
+		image: Image20,
+		// title: "Project Title One (FRONTEND)1",
+		title: "AI Resume Builder",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://www.jobtumb.com/",
+		github: "https://github.com",
+	},
+	// {
+	// 	id: 10,
+	// 	category: "frontend",
+	// 	image: Image11,
+	// 	// title: "Project Title One (FRONTEND)1",
+	// 	title: "The Barber Shop",
+	// 	description:
+	// 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+	// 	demo: "https://google.com",
+	// 	github: "https://github.com",
+	// },
+	{
+		id: 11,
 		category: "frontend",
 		image: Image1,
 		// title: "Project Title One (FRONTEND)1",
 		title: "Beauty Barbing Salon",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
 		demo: "https://google.com",
 		github: "https://github.com",
 	},
 
 	{
-		id: 2,
+		id: 12,
 		category: "frontend",
 		image: Image2,
 		// title: "Project Title One (FRONTEND)2",
 		title: "Bootstrap Project",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://bello682.github.io/WEBSITE-BOOTSTRAP-CASHTOKEN/",
 		github: "https://github.com",
 	},
 
 	{
-		id: 3,
+		id: 13,
 		category: "backend",
 		image: Image3,
 		title: "Simple Hero Header Page",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
 		demo: "https://google.com",
 		github: "https://github.com",
 	},
 
 	{
-		id: 4,
+		id: 14,
 		category: "frontend",
 		image: Image4,
 		// title: "Project Title One (FRONTEND)4",
 		title: "Ecommerce Website",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://bello682.github.io/E-COM-APP-PROJECT-JAVASCRIPT/",
 		github: "https://github.com",
 	},
 
 	{
-		id: 5,
+		id: 15,
 		category: "backend",
 		image: Image5,
 		// title: "Project Title One (BACKEND)5",
 		title: "Simple Design Landing Page",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
 		demo: "https://google.com",
 		github: "https://github.com",
 	},
 
 	{
-		id: 6,
+		id: 16,
 		category: "frontend",
 		image: Image6,
 		// title: "Project Title One (FRONTEND)6",
 		title: "Pick a Card Game",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://bello682.github.io/JAVASCRIPT-CHECK-GAME-PICK-RAMDOM-GAME-/",
 		github: "https://github.com",
 	},
 
 	{
-		id: 7,
+		id: 17,
 		category: "backend",
 		image: Image7,
 		// title: "Project Title One (BACKEND)7",
 		title: "Food Recipe",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://bello682.github.io/Recipe-App-Javascript-/",
 		github: "https://github.com",
 	},
 
 	{
-		id: 8,
+		id: 18,
 		category: "frontend",
 		image: Image8,
 		// title: "Project Title One (FRONTEND)8",
 		title: "Movie Hub",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
 		demo: "https://google.com",
 		github: "https://github.com",
 	},
 
 	{
-		id: 9,
+		id: 19,
 		category: "backend",
 		image: Image9,
 		// title: "Project Title One (BACKEND)9",
 		title: "Engineering web",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
-		demo: "https://google.com",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
+		demo: "https://bello682.github.io/JAVASCRIPT-ENGINEERING-WEBSITE-APP/",
 		github: "https://github.com",
 	},
 
 	{
-		id: 10,
+		id: 20,
 		category: "frontend",
 		image: Image10,
 		title: "Previewer Card",
-		// description:
-		// 	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. Necessitatibus inventore labore a ad possimus vero iure, dignissimos quod porro dolore, modi quibusdam qui delectus fugiat?",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
 		demo: "https://google.com",
 		github: "https://github.com",
 	},

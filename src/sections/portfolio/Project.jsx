@@ -10,7 +10,7 @@ const Project = ({ projectNewProps }) => {
 				<p>{projectNewProps.description}</p>
 
 				<div className="portfolio_project-call_to_action">
-					{/* <a
+					<a
 						href={projectNewProps.demo}
 						className="btn sm"
 						target="_blank"
@@ -20,13 +20,13 @@ const Project = ({ projectNewProps }) => {
 					</a>
 
 					<a
-						href={projectNewProps.github}
+						// href={projectNewProps.github}
 						className="btn sm primary"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						Github
-					</a> */}
+					</a>
 				</div>
 			</div>
 		</Card>
