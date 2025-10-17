@@ -221,7 +221,7 @@ const PortfolioDataLink = [
 		title: "Movie Hub",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
-		demo: "https://google.com",
+		demo: "https://movie-search-app-blush-nu.vercel.app/",
 		github: "https://github.com",
 	},
 
