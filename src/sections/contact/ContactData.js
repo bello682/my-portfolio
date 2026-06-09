@@ -3,23 +3,23 @@ import { RiMessageLine } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ContactDataLink = [
-	{
-		id: 1,
-		icon: <HiOutlineMail />,
-		Link: "mailto:belloadetayo14@gmail.com",
-	},
+  {
+    id: 1,
+    icon: <HiOutlineMail />,
+    Link: "mailto:belloadetayo14@gmail.com",
+  },
 
-	{
-		id: 2,
-		icon: <RiMessageLine />,
-		Link: "https://www.messenger.com/t/adetayo.olamiji",
-	},
+  {
+    id: 2,
+    icon: <RiMessageLine />,
+    Link: "https://www.messenger.com/t/adetayo.olamiji",
+  },
 
-	{
-		id: 3,
-		icon: <FaWhatsapp />,
-		Link: "https://wa.me/+2348083948842",
-	},
+  {
+    id: 3,
+    icon: <FaWhatsapp />,
+    Link: "https://wa.me/+2348139680568",
+  },
 ];
 
 // Alternative whatsapp Link is
