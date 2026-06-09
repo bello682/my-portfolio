@@ -1,5 +1,5 @@
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
+// import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { AiFillGithub } from "react-icons/ai";
 

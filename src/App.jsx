@@ -43,7 +43,7 @@
 
 // export default App;
 
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
@@ -61,22 +61,22 @@ import { useThemeContext } from "./context/theme-context-Api";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 
 const App = () => {
-	const mainRef = useRef();
-	const { themeState } = useThemeContext();
+  const mainRef = useRef();
+  const { themeState } = useThemeContext();
 
-	useEffect(() => {
-		console.log(mainRef.current.getBoundingClientRect());
-	}, []); // Empty dependency array for componentDidMount behavior
+  useEffect(() => {
+    console.log(mainRef.current.getBoundingClientRect());
+  }, []); // Empty dependency array for componentDidMount behavior
 
-	return (
-		<main
-			className={`${themeState.primary} ${themeState.background}`}
-			ref={mainRef}
-		>
-			{/* <Routes>
+  return (
+    <main
+      className={`${themeState.primary} ${themeState.background}`}
+      ref={mainRef}
+    >
+      {/* <Routes>
 				<Route path="/" element={<Header />} />
 				<Route path="/About" element={<About />} />
 				<Route path="/services" element={<Services />} />
@@ -87,19 +87,19 @@ const App = () => {
 				<Route path="*" element={<h1>Page Not Found</h1>} />{" "}
 			</Routes> */}
 
-			<Navbar />
-			<Header />
-			<About />
-			<Services />
-			<Portfolio />
-			<Testimonials />
-			<Faqs />
-			<Contact />
-			<Footer />
-			<Theme />
-			<FloatingNav />
-		</main>
-	);
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Faqs />
+      <Contact />
+      <Footer />
+      <Theme />
+      <FloatingNav />
+    </main>
+  );
 };
 
 export default App;
