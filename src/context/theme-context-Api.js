@@ -1,10 +1,4 @@
-import {
-  createContext,
-  useContext,
-  useReducer,
-  useEffect,
-  // Children,
-} from "react";
+import { createContext, useContext, useReducer, useEffect } from "react";
 
 import themeReducer from "./themeReducer";
 
@@ -27,7 +21,7 @@ export const ThemeProvider = ({ children }) => {
   // Save theme settings to local storage
   useEffect(() => {
     localStorage.setItem("themeSettings", JSON.stringify(themeState));
-  }, [themeState.primary, themeState.background]);
+  }, [themeState]);
 
   return (
     <ThemeContext.Provider value={{ themeState, themeHandler }}>

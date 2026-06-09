@@ -8,7 +8,6 @@ import Image7 from "../../images/SCREENSHOT/recipe food.png";
 import Image8 from "../../images/SCREENSHOT/movie cart.png";
 import Image9 from "../../images/SCREENSHOT/engine.png";
 import Image10 from "../../images/SCREENSHOT/imagecard.png";
-// import Image11 from "../../images/The-Barber-Shop.jpg";
 import Image12 from "../../images/SCREENSHOT/innovation sch.jpg";
 import Image13 from "../../images/SCREENSHOT/hairBookin.jpg";
 import Image14 from "../../images/SCREENSHOT/real estate 1.jpg";
@@ -154,17 +153,7 @@ const PortfolioDataLink = [
     demo: "https://www.jobtumb.com/",
     github: "https://github.com/bello682?tab=repositories",
   },
-  // {
-  // 	id: 10,
-  // 	category: "frontend",
-  // 	image: Image11,
-  // 	// title: "Project Title One (FRONTEND)1",
-  // 	title: "The Barber Shop",
-  // 	description:
-  // 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis labore impedit ullam. ",
-  // 	demo: "https://google.com",
-  // 	github: "https://github.com/bello682?tab=repositories",
-  // },
+
   {
     id: 13,
     category: "frontend",

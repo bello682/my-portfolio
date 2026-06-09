@@ -1,6 +1,4 @@
-// import React from "react";
 import { Card } from "./../../components/Card";
-// import { TestimonialCard } from "./../../components/Card";
 
 export const Testimonial = ({ TestimonialProps }) => {
   return (
@@ -12,7 +10,6 @@ export const Testimonial = ({ TestimonialProps }) => {
         </div>
         <div className="testimonial__client-details">
           <h6>{TestimonialProps.name}</h6>
-          {/* <small>{TestimonialProps.profession}</small> */}
           {TestimonialProps.profession && (
             <a
               href={TestimonialProps.profession}
@@ -28,9 +25,5 @@ export const Testimonial = ({ TestimonialProps }) => {
     </Card>
   );
 };
-
-// const Testimonial = ({ TestimonialProps }) => {
-//   return <TestimonialCard testimonial={TestimonialProps} />;
-// };
 
 export default Testimonial;

@@ -1,5 +1,3 @@
-// import { AiOutlineInstagram } from "react-icons/ai";
-// import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { AiFillGithub } from "react-icons/ai";
 
@@ -12,8 +10,6 @@ export const FooterDatalinks = [
 ];
 
 export const FooterSocialsDataLinks = [
-  //   { id: 1, link: "https://instagram.com", icon: <AiOutlineInstagram /> },
-  //   { id: 2, link: "https://twitter.com", icon: <AiOutlineTwitter /> },
   {
     id: 3,
     link: "https://www.linkedin.com/in/bello-adetayo-olamiji-436375221/",

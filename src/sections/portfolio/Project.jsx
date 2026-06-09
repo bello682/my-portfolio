@@ -7,7 +7,6 @@ const Project = ({ projectNewProps }) => {
       <div className="portfolio__project-image">
         <img src={projectNewProps.image} alt="PROJECT PORTFOLIO" />
         <h4>{projectNewProps.title}</h4>
-        {/* <p>{projectNewProps.description}</p> */}
 
         <div className="portfolio_project-call_to_action">
           <a

@@ -1,32 +1,10 @@
 import React, { useState } from "react";
 import Projects from "./Projects";
-// import ProjectsCategories from "./ProjectsCategories";
 import PortfolioData from "./portfolioData";
 import "./portfolio.css";
-import PortfolioDataLink from "./portfolioData";
 
 const Portfolio = () => {
-  const [projectsU, setProjectU] = useState(PortfolioData);
-
-  const categoriesAll = PortfolioDataLink.map((item) => {
-    return item.category;
-  });
-
-  // To set or target a unique ITEM we usE the "set".
-  // const UniqueCategories = new Set(categoriesAll);
-  // const UniqueCategories = ["all", ...new Set(categoriesAll)];
-
-  // category is the (argument that was passed)
-  //   const filterProjectHandler = (category) => {
-  //     if (category === "all") {
-  //       setProjectU(PortfolioDataLink);
-  //       return;
-  //     }
-  //     const filterProjects = PortfolioDataLink.filter(
-  //       (ProjectItems) => ProjectItems.category === category,
-  //     );
-  //     setProjectU(filterProjects);
-  //   };
+  const [projectsU] = useState(PortfolioData);
 
   return (
     <section id="portfolio-id-routing">
@@ -37,10 +15,6 @@ const Portfolio = () => {
       </p>
 
       <div className="container portfolio__container">
-        {/* <ProjectsCategories
-					CategoriesProps={UniqueCategories}
-					onFilterProject={filterProjectHandler}
-				/> */}
         <Projects projectProps={projectsU} />
       </div>
     </section>

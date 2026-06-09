@@ -42,9 +42,7 @@ const About = () => {
             with the details of your project let's get started! Check out my
             resume below!
           </p>
-          {/* <a href={CV} download className="btn primary">
-						Download CV <HiDownload />
-					</a> */}
+
           <a
             href={CV}
             target="_blank"
