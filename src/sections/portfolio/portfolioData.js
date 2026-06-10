@@ -20,6 +20,7 @@ import Image20 from "../../images/SCREENSHOT/resume Ai builder.jpg";
 import Image21 from "../../images/SCREENSHOT/craftByIBK.png";
 import Image22 from "../../images/SCREENSHOT/loanAPP.png";
 import Image23 from "../../images/SCREENSHOT/estatePRO.png";
+import Image24 from "../../images/SCREENSHOT/AdminFintechDasboard.png";
 
 const PortfolioDataLink = [
   {
@@ -43,8 +44,21 @@ const PortfolioDataLink = [
     demo: "https://loan-web-app-next-js-frontend.vercel.app/",
     github: "https://github.com/bello682?tab=repositories",
   },
+
   {
     id: 3,
+    category: "frontend",
+    image: Image24,
+    // title: "Project Title One (FRONTEND)1",
+    title: "Admin Fintech Dashboard",
+    description:
+      "A modern admin dashboard for a fintech application built with React and Firebase, providing a seamless experience for users to manage their financial data.",
+    demo: "https://vellomij-fintech-banking-admin-dash.vercel.app/login",
+    github: "https://github.com/bello682?tab=repositories",
+  },
+
+  {
+    id: 4,
     category: "frontend",
     image: Image23,
     // title: "Project Title One (FRONTEND)1",
@@ -55,7 +69,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 4,
+    id: 5,
     category: "frontend",
     image: Image12,
     // title: "Project Title One (FRONTEND)1",
@@ -66,7 +80,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 5,
+    id: 6,
     category: "frontend",
     image: Image13,
     // title: "Project Title One (FRONTEND)1",
@@ -77,7 +91,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 6,
+    id: 7,
     category: "frontend",
     image: Image14,
     // title: "Project Title One (FRONTEND)1",
@@ -88,7 +102,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 7,
+    id: 8,
     category: "frontend",
     image: Image15,
     // title: "Project Title One (FRONTEND)1",
@@ -99,7 +113,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 8,
+    id: 9,
     category: "frontend",
     image: Image16,
     // title: "Project Title One (FRONTEND)1",
@@ -110,7 +124,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 9,
+    id: 10,
     category: "frontend",
     image: Image17,
     // title: "Project Title One (FRONTEND)1",
@@ -121,7 +135,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 10,
+    id: 11,
     category: "frontend",
     image: Image18,
     // title: "Project Title One (FRONTEND)1",
@@ -132,7 +146,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 11,
+    id: 12,
     category: "frontend",
     image: Image19,
     // title: "Project Title One (FRONTEND)1",
@@ -143,7 +157,7 @@ const PortfolioDataLink = [
     github: "https://github.com/bello682?tab=repositories",
   },
   {
-    id: 12,
+    id: 13,
     category: "frontend",
     image: Image20,
     // title: "Project Title One (FRONTEND)1",
@@ -155,7 +169,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 13,
+    id: 14,
     category: "frontend",
     image: Image1,
     // title: "Project Title One (FRONTEND)1",
@@ -167,7 +181,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 14,
+    id: 15,
     category: "frontend",
     image: Image2,
     // title: "Project Title One (FRONTEND)2",
@@ -179,7 +193,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 15,
+    id: 16,
     category: "backend",
     image: Image3,
     title: "Simple Hero Header Page",
@@ -190,7 +204,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 16,
+    id: 17,
     category: "frontend",
     image: Image4,
     // title: "Project Title One (FRONTEND)4",
@@ -202,7 +216,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 17,
+    id: 18,
     category: "backend",
     image: Image5,
     // title: "Project Title One (BACKEND)5",
@@ -214,7 +228,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 18,
+    id: 19,
     category: "frontend",
     image: Image6,
     // title: "Project Title One (FRONTEND)6",
@@ -226,7 +240,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 19,
+    id: 20,
     category: "backend",
     image: Image7,
     // title: "Project Title One (BACKEND)7",
@@ -238,7 +252,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 20,
+    id: 21,
     category: "frontend",
     image: Image8,
     // title: "Project Title One (FRONTEND)8",
@@ -250,7 +264,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 21,
+    id: 22,
     category: "backend",
     image: Image9,
     // title: "Project Title One (BACKEND)9",
@@ -262,7 +276,7 @@ const PortfolioDataLink = [
   },
 
   {
-    id: 22,
+    id: 23,
     category: "frontend",
     image: Image10,
     title: "Previewer Card",
