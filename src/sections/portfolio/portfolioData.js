@@ -53,7 +53,7 @@ const PortfolioDataLink = [
     title: "Admin Fintech Dashboard",
     description:
       "A modern admin dashboard for a fintech application built with React and Firebase, providing a seamless experience for users to manage their financial data.",
-    demo: "https://vellomij-fintech-banking-admin-dash.vercel.app/login",
+    demo: "https://vellomij-fintech-banking-admin-dash.vercel.app",
     github: "https://github.com/bello682?tab=repositories",
   },
 
