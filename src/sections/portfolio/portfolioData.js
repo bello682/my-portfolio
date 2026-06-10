@@ -40,7 +40,7 @@ const PortfolioDataLink = [
     title: "Loan Application",
     description:
       "A modern loan application built with React and Firebase, providing a seamless experience for users to apply for loans online.",
-    demo: "https://my-loan-website-nest-js.vercel.app/",
+    demo: "https://loan-web-app-next-js-frontend.vercel.app/",
     github: "https://github.com/bello682?tab=repositories",
   },
   {
